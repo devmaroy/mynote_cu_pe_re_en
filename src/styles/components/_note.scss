@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    # Note
+\*------------------------------------*/
+
+.note {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: .1rem solid $off-purple;
+    margin: 0 $m-size;
+    padding: $l-size $m-size;
+    
+    &:last-child {
+        border: none;
+    }
+}
+
+.note__text {
+    font-size: 2rem;
+    padding: $m-size 0;
+    margin: 0 $s-size 0 0;
+    color: $purple;
+}

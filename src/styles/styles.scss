@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    # Styles  - MyNote
+    # Author  - Marek Matejovic <me@devmaroy.com>
+    # Website - https://mynote-mmproj.netlify.app/ 
+    # License - None. Feel free to do whatever you want.
+\*------------------------------------*/
+
+// Base
+@import './base/settings';
+@import './base/base';
+
+// Components
+@import './components/container';
+@import './components/button';
+@import './components/header';
+@import './components/add-note';
+@import './components/notes';
+@import './components/note';

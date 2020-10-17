@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    # Base
+\*------------------------------------*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, * {
+    box-sizing: inherit;
+}
+
+::selection {
+    background: $light-purple;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: $m-size;
+    background: $purple;
+    color: $white;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+@media ( min-width: $desktop-breakpoint ) {
+    .app-body {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+}

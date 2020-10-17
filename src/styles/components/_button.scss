@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    # Button
+\*------------------------------------*/
+
+.button {
+    border: none;
+    outline: none;
+
+    font-size: $s-size;
+    background: $light-purple;
+    box-shadow: 0 .3rem .6rem rgba( 0, 0, 0, 0.16 ), 0 .3rem .6rem rgba( 0, 0, 0, 0.23 );
+    color: $purple;
+    padding: $s-size $m-size;
+    text-transform: uppercase;
+
+    transition: all 200ms ease-in-out;
+
+    &:hover,
+    &:focus {
+        background: darken( $light-purple, 3% );
+    }
+}
+
+.button--link {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    color: $off-purple;
+
+    &:hover,
+    &:focus {
+        background: none;
+        color: darken( $off-purple, 10% );
+    }
+}

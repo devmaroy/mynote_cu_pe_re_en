@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    # Add Note
+\*------------------------------------*/
+
+.add-note-form-error {
+    font-style: italic;
+    color: $light-purple;
+    padding: $s-size;
+}
+
+.add-note {
+    margin: $xl-size 0 0 0;
+}
+
+.add-note-form {
+    text-align: right;
+}
+
+.add-note-form__textarea {
+    border: none;
+    outline: none;
+
+    background: $light-purple;
+    border: 1rem solid $off-purple;
+    color: $purple;
+    padding: $m-size;
+    width: 100%;
+
+    &:hover,
+    &:focus {
+        outline: .1rem solid $off-purple;
+    }
+}
+
+.add-note-form-meta {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.add-note-form__button {
+    margin: $s-size 0 0 0;
+}
+
+@media ( min-width: $desktop-breakpoint ) {
+    .add-note {
+        flex-basis: 45%;
+    }
+}

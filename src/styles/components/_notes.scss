@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    # Notes
+\*------------------------------------*/
+
+.notes__message {
+    padding: $s-size;
+    color: $off-purple;
+    text-align: center;
+}
+
+.notes {
+    background: $light-purple;
+    border: 1rem solid $off-purple;
+    margin: $xl-size 0 $xl-size 0;
+}
+
+.notes-header {
+    display: flex;
+    justify-content: space-between;
+
+    background: $off-purple;
+    padding: $s-size $l-size;
+}
+
+.notes-header__title {
+    text-transform: uppercase;
+}
+
+.notes-header__button {
+    color: $white;
+
+    &:hover,
+    &:focus {
+        color: darken( $white, 10% );
+    }
+}
+
+@media ( min-width: $desktop-breakpoint ) {
+    .notes {
+        flex-basis: 50%;
+    }
+}

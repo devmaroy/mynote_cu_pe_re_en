@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    # Header
+\*------------------------------------*/
+
+.header {
+    text-align: center;
+}
+
+.header__title {
+    font-family: 'Staatliches', cursive;
+    font-size: $xl-size;
+    letter-spacing: 1rem;
+    text-shadow: .1rem .1rem .1rem #000, .3rem .3rem .5rem #000;
+}
+
+.header__subtitle {
+    font-weight: 500;
+}
